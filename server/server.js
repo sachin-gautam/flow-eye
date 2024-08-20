@@ -8,9 +8,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const SMS_API_URL = "https://sms.aakashsms.com/sms/v3/send";
-const AUTH_TOKEN = "5343732da4ddf63f92cf7f02a3ea6d7264d5493fd4af2526156fe4bdc32a63fa";
-const ALERT_PHONE_NUMBER = "9869107770";
+const SMS_API_URL = "";
+const AUTH_TOKEN = "";
+const ALERT_PHONE_NUMBER = "";
 
 // Create a connection to the MySQL database
 const db = mysql.createConnection({
